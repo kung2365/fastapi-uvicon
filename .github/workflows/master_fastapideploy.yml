@@ -28,13 +28,13 @@ jobs:
         platform-version: '3.7'
 
     - name: Install Custom Dependencies(fastapi)
-      run: npm install fastapi
+      run: pip install fastapi
       
     - name: Install Custom Dependencies(uvloop)
-      run: npm install uvloop
+      run: pip install uvloop
       
     - name: Install Custom Dependencies(uvicorn)
-      run: npm install uvicorn
+      run: pip install uvicorn
       
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v2
