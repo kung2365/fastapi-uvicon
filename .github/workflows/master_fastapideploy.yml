@@ -33,6 +33,9 @@ jobs:
     - name: Install Custom Dependencies(uvloop)
       run: pip install uvloop
       
+    - name: Install Custom Dependencies(httptools)
+      run: pip install httptools
+      
     - name: Install Custom Dependencies(uvicorn)
       run: pip install uvicorn
       
